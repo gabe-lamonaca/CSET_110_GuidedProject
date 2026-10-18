@@ -65,7 +65,12 @@
 }
 
 body{
-    background-color: black;
+    font-style: "Lato", sans-serif;
+    font-size: 30px;
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
 }
 
 html {
@@ -173,4 +178,138 @@ header h1{
     color: #e67e22;
     margin-bottom: 10px;
     --ionicon-stroke-width: 20px;
+}
+
+.section-card{
+    width: 25%;
+}
+
+h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 52px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    text-align: center;
+    background-color: #e67e22;
+    margin: 50px auto 10px auto;
+}
+
+#testimonial{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('images/back-customers.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sectioncard{
+    width: 20%;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.profile{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    margin-bottom: 120px;
+}
+
+.profile img{
+    width: 60px;
+    border-radius: 50px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+#subscription{
+    background-color: rgb(210, 218, 224);
+    padding-top: 150px;
+}
+
+#subscription h2 {
+    color: #555;
+    margin: 0px
+}
+
+.section-card h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+#subscription .section-card{
+    width: 450px;
+    color: #555;
+    margin: 2px 50px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background-color: white;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    color: #e67e22;
+    font-size: 70px;
+}
+
+.daily{
+    font-size: 30px;
+}
+
+.card-container ul{
+    margin: 10px;
+}
+
+.card-container .button, .card-container .sub-button{
+    width: 55%;
+    margin: 0px auto;
+    text-align: center;
+}
+#ghost{
+    color: white;
 }
