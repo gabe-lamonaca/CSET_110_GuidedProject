@@ -204,7 +204,7 @@ h2::after {
 
 /* Feature card animation */
 
-#features .section-card {
+Options#features .section-card {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.8s ease, transform 0.8s ease;
